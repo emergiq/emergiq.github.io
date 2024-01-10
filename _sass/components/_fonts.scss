@@ -5,3 +5,11 @@
 	font-display: swap;
 	src: local(''), url('../fonts/playfair-display.woff2') format('woff2');
 }
+
+@font-face {
+	font-family: 'TitilliumWeb';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local(''), url('../fonts/TitilliumWeb-Bold.ttf') format('ttf');
+}
