@@ -5,7 +5,7 @@ image: "images/team/phillip-la.jpg"
 jobtitle: "Director, Project Manager"
 linkedinurl: "https://www.linkedin.com/in/phillip-la-7a9125176/"
 promoted: true
-weight: 2
+weight: 1
 ---
 
 Backed by a solid foundation in project management, Phillip La is the project manager for emergiq.
