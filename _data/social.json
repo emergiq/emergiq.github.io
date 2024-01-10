@@ -10,9 +10,13 @@
     "image": "images/social/mastodon.svg"
   },
   {
-      "name": "Email",
-      "link": "mailto:contact@emergiq.app",
-      "image": "images/social/email.svg"
+    "name": "Email",
+    "link": "mailto:contact@emergiq.app",
+    "image": "images/social/email.svg"
   },
-
+  {
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/company/emergiq",
+    "image": "images/social/linkedin.svg"
+  }
 ]
