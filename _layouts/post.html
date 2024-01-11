@@ -1,0 +1,37 @@
+---
+layout: default
+bodyClass: "page-post"
+---
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+            <div id="breadcrumbs">
+            {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+            <a href="/">Home</a>
+            / <a href="/blog">Blog</a>
+            / {{ page.title }}
+            </div>
+            <h1>{{ page.title }}</h1>
+            <p>
+                {{ page.date | date_to_string }} -
+                
+                {% assign matching_member = false %}
+                {% for team in site.team %}
+                    {% if team.title == page.author %}
+                        {% assign matching_member = true %}
+                        <a href="{{ team.url | relative_url }}">{{ team.title }}</a>
+                    {% endif %}
+                {% endfor %}
+                {% if matching_member == false %}
+                    {{ page.author }}
+                {% endif %}
+            </p>
+        </div>
+    </div>
+    <div class="row justify-content-start">
+        <div class="col-lg-8 col-md-12">
+            {{ content }}
+        </div>
+    </div>
+</div>
