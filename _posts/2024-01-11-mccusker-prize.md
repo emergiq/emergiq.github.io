@@ -1,14 +1,11 @@
 ---
 layout: post
 author: Ben McLean
-title: McCusker Prize
+title: FireApp wins the McCusker Prize for Humanitarian Engineering
 ---
 
-A banana is an edible fruit – botanically a berry – produced by several
-kinds of large herbaceous flowering plants in the genus Musa.
+FireApp has been awarded the McCusker Prize for Humanitarian Engineering, recognising FireApp's strong potential to revolutionize emergency response and volunteer management. Presented annually by the Australian National University in collaboration with the McCusker Charitable Foundation, this award aims to support the most promising humanitarian projects.
 
-In some countries, bananas used for cooking may be called "plantains",
-distinguishing them from dessert bananas. The fruit is variable in size,
-color, and firmness, but is usually elongated and curved, with soft
-flesh rich in starch covered with a rind, which may be green, yellow,
-red, purple, or brown when ripe.
+Developed by a dedicated team of professionals, FireApp is an application that streamlines the mobilization and organization of volunteers during crises. By using AI to schedule and manage volunteers and ensure that crews are properly staffed, FireApp is supporting and enhancing emergency organisation response.
+
+The McCusker Prize for Humanitarian Engineering serves as a testament to the app's role as a trailblazer in leveraging technology for societal betterment. FireApp's success emphasizes the crucial intersection of innovation and engineering in addressing pressing global challenges. As we celebrate FireApp's recognition, we are reminded of technology's immense potential to create a more resilient and compassionate world.
