@@ -1,6 +1,6 @@
-baseurl: '/'
 permalink: pretty
 title: 'emergiq'
+url: 'https://emergiq.app'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
