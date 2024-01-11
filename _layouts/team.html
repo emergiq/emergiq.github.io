@@ -23,10 +23,10 @@ bodyClass: "page-team"
         <h2 class="subtitle">{{page.jobtitle}}</h2>
         <div class="social">
           {% if page.linkedinurl %}
-            <a href="{{ page.linkedinurl }}" target="blank"><img src="{{ 'images/social-dark/linkedin.svg' | relative_url }}" title="{{ LinkedIn }}" alt="{{ LinkedIn }}" /></a>
+            <a href="{{ page.linkedinurl }}" target="blank"><img src="{{ 'images/social-dark/linkedin.svg' | relative_url }}" title="LinkedIn" alt="LinkedIn" /></a>
           {% endif %}
           {% if page.mastodonurl %}
-            <a href="{{ page.mastodonurl }}" target="blank"><img src="{{ 'images/social-dark/mastodon.svg' | relative_url }}" title="{{ Mastodon }}" alt="{{ Mastodon }}" /></a>
+            <a href="{{ page.mastodonurl }}" target="blank"><img src="{{ 'images/social-dark/mastodon.svg' | relative_url }}" title="Mastodon" alt="Mastodon" /></a>
           {% endif %}
         </div>
         <div class="content">{{content}}</div>
