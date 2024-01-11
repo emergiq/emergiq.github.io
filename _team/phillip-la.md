@@ -3,7 +3,11 @@ title: "Phillip La"
 date: 2024-01-10T10:47:58+10:00
 image: "images/team/phillip-la.jpg"
 jobtitle: "Director, Project Manager"
-linkedinurl: "https://www.linkedin.com/in/phillip-la-7a9125176/"
+social:
+- name: linkedin
+  url: https://www.linkedin.com/in/phillip-la-7a9125176/
+- name: github
+  url: https://github.com/pdsla112
 promoted: true
 weight: 1
 ---

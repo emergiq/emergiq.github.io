@@ -22,12 +22,10 @@ bodyClass: "page-team"
         <h1 class="title">{{page.title}}</h1>
         <h2 class="subtitle">{{page.jobtitle}}</h2>
         <div class="social">
-          {% if page.linkedinurl %}
-            <a href="{{ page.linkedinurl }}" target="blank"><img src="{{ 'images/social-dark/linkedin.svg' | relative_url }}" title="LinkedIn" alt="LinkedIn" /></a>
-          {% endif %}
-          {% if page.mastodonurl %}
-            <a href="{{ page.mastodonurl }}" target="blank"><img src="{{ 'images/social-dark/mastodon.svg' | relative_url }}" title="Mastodon" alt="Mastodon" /></a>
-          {% endif %}
+          {% for social in page.social %}
+            {% assign mapping = site.data.social-map | where: "name", social.name | first %}
+            <a href="{{ social.url }}" target="blank"><img src="{{ mapping.image_dark | relative_url }}" title="{{ mapping.title }}" alt="{{ mapping.title }}" /></a>
+          {% endfor %}
         </div>
         <div class="content">{{content}}</div>
       </div>

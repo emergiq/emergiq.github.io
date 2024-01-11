@@ -3,8 +3,13 @@ title: "Ben McLean"
 date: 2024-01-10T10:47:58+10:00
 image: "images/team/ben-mclean.jpg"
 jobtitle: "Director, Technical Lead"
-linkedinurl: "https://www.linkedin.com/in/benmmclean/"
-mastodonurl: "https://mastodon.online/@benmmclean"
+social:
+- name: linkedin
+  url: https://www.linkedin.com/in/benmmclean/
+- name: github
+  url: https://github.com/BenMMcLean
+- name: mastodon
+  url: https://mastodon.online/@benmmclean
 promoted: true
 weight: 2
 ---
