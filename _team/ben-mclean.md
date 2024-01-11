@@ -8,8 +8,8 @@ social:
   url: https://www.linkedin.com/in/benmmclean/
 - name: github
   url: https://github.com/BenMMcLean
-- name: mastodon
-  url: https://mastodon.online/@benmmclean
+- name: twitter
+  url: https://twitter.com/benmmclean
 promoted: true
 weight: 2
 ---
