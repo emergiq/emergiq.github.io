@@ -5,15 +5,19 @@ bodyClass: "page-team"
 
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
   <div class="row justify-content-start">
+    <div class="col-md-8 offset-md-2">
+      {% include breadcrumbs.html %}
+    </div>
+  </div>
+  <div class="row justify-content-start">
     {% if page.image %}
-      <div class="col-2 col-md-2">
-        <div class="team-image" style="display:block;margin:auto;margin-bottom:20px;margin-top:48px">
+      <div class="col-md-2">
+        <div class="team-image" style="display:block;margin:auto;margin-bottom:20px;">
           <img alt="{{ page.title }}" class="img-fluid mb-2" src="{{ page.image | relative_url }}" />
         </div>
       </div>
     {% endif %}
-    <div class="col-12 col-md-8">
-      {% include breadcrumbs.html %}
+    <div class="col-md-8">
       <div class="team team-single">
         <h1 class="title" style="margin-bottom:0;">{{page.title}}</h1>
         <h2 class="subtitle" style="margin-bottom:0;">{{page.jobtitle}}</h2>
