@@ -6,3 +6,16 @@
     flex: 1 0 0;
   }
 }
+
+.page-post {
+  .hero-image {
+    img {
+      width: 100%;
+    }
+    p {
+      font-style: italic;
+      color: $steel-light;
+      font-size: 0.8em;
+    }
+  }
+}

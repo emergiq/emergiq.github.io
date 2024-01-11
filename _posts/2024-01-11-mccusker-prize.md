@@ -2,6 +2,8 @@
 layout: post
 author: Ben McLean
 title: FireApp wins the McCusker Prize for Humanitarian Engineering
+hero_image: /images/post/fire-app-presentation.jpg
+hero_image_alt: Several FireApp members at the project showcase presentation.
 ---
 
 FireApp has been awarded the McCusker Prize for Humanitarian Engineering, recognising FireApp's strong potential to revolutionize emergency response and volunteer management. Presented annually by the Australian National University in collaboration with the McCusker Charitable Foundation, this award aims to support the most promising humanitarian projects.
