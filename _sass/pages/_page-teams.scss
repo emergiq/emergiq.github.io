@@ -55,8 +55,17 @@
   .team-image {
     height: 100px;
     width: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+
     img {
       width: 100px;
+    }
+  }
+  .team-single {
+    .title, .subtitle {
+      margin-bottom: 0;
     }
   }
 }
