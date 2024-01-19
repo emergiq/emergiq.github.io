@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Serve",
+            "type": "command",
+            "program": "bundle",
+            "args": ["exec", "jekyll", "serve"]
+        }
+    ]
+}
