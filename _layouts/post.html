@@ -30,7 +30,7 @@ bodyClass: "page-post"
             {{ content }}
             <hr/>
             <p>
-                Posted {{ page.date | date_to_string }} {% if page.updated %} (updated {{ page.updated | date_to_string }}){% endif %},
+                Posted {{ page.date | date_to_string }}{% if page.updated %} (updated {{ page.updated | date_to_string }}){% endif %},
                 written by
 
                 {% assign matching_member = false %}
